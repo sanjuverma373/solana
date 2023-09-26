@@ -43,6 +43,9 @@
     --grey:#BABABA;
     --greanish:#19FD9B;
     --yellow:#FFEB3B; 
+    --gradient-purple: var(--S-button, linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%));
+
+
 
 }
 
@@ -181,4 +184,7 @@
 }
 .text-dark-grey{
     color: var(--dark-grey);
+}
+.bg-gradient-purple{
+    background: var(--gradient-purple);
 }
