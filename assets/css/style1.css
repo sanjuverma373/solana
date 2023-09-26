@@ -19,3 +19,10 @@
 .bg-nav-black{
     background: #040204;
 }
+.nav-bar-h{
+   transition: .3s;
+}
+.nav-bar-h:hover{
+    color: white;
+    font-weight: bold;
+}
