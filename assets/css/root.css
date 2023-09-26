@@ -43,7 +43,7 @@
     --grey:#BABABA;
     --greanish:#19FD9B;
     --yellow:#FFEB3B; 
-       
+
 }
 
 /*font-size */
@@ -111,40 +111,40 @@
     font-size: var(--fs-lg-2);
 }
 
-.fss-x-lg {
+.fs-x-lg {
     font-size: var(--fs-lg-3);
 }
-.fss-xxl-lg {
+.fs-xxl-lg {
     font-size: var(--fs-lg-4);
 }
-.fss-xxl-lg-1 {
+.fs-xxl-lg-1 {
     font-size: var(--fs-lg-5);
 }
-.fss-xl {
+.fs-xl {
     font-size: var(--fs-xl);
 }
-.fss-s-xl {
+.fs-s-xl {
     font-size: var(--fs-xl-1);
 }
-.fss-m-xl {
+.fs-m-xl {
     font-size: var(--fs-xl-2);
 }
-.fss-x-xl {
+.fs-x-xl {
     font-size: var(--fs-xl-3);
 }
-.fss-xxl-xl {
+.fs-xxl-xl {
     font-size: var(--fs-xl-4);
 }
-.fss-xxl-xl-1 {
+.fs-xxl-xl-1 {
     font-size: var(--fs-xl-5);
 }
-.fss-xxl-xl-2 {
+.fs-xxl-xl-2 {
     font-size: var(--fs-xl-6);
 }
-.fss-xxl-xl-3 {
+.fs-xxl-xl-3 {
     font-size: var(--fs-xl-7);
 }
-.fss-xxl-xl-4 {
+.fs-xxl-xl-4 {
     font-size: var(--fs-xl-8);
 }
 
