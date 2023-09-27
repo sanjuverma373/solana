@@ -16,8 +16,8 @@
 }
 
 /* nav-section */
-.bg-nav-black{
-    background: #040204;
+.bg-colors{
+    background: #000000;
 }
 .nav-bar-h{
    transition: .3s;
@@ -26,3 +26,276 @@
     color: white;
     font-weight: bold;
 }
+
+.nav-bar-h:hover .down-arrow > svg path{
+    fill: white;   
+}
+
+
+.cross-1 {
+    rotate: 45deg;
+    transition: .4s;
+}
+
+.cross-2 {
+    position: relative;
+    transition: .4s;
+    top: -80%;
+    rotate: -45deg;
+}
+
+.cross-4 {
+    transition: .4s;
+}
+
+.cross-5 {
+    transition: .4s;
+}
+
+.cross-6 {
+    transition: .4s;
+}
+
+.cross-3 {
+    display: none !important;
+}
+.flow-hidden {
+    overflow: hidden;
+}
+
+/* devloper-section */
+.mx-390{
+    max-width: 390px;
+}
+
+.mr-8{
+    margin-right: 8px;
+}
+.build-btn{
+    border-radius: 24px;
+border: 1px solid #000;
+background: #14F195;
+padding: 10px 21px;
+}
+.stack-btn{
+    border-radius: 24px;
+border: 1px solid #FFF;
+background: #000;
+padding: 10px 21px;
+}
+
+.elips-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.z-index-1{
+    z-index: -1;
+}
+
+.bg-devloper-img{
+    background-image: url(../images/bg-devloper-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    padding: 85px;
+}
+p {
+     margin-bottom: unset !important; 
+}
+
+.pramiry-btn{
+    border-radius: 16px;
+background: #9945FF;
+padding: 1px 11px;
+border: none;
+}
+
+/* .devloper-img{
+    padding: 31px;
+} */
+
+.text-position {
+    position: absolute;
+    bottom: 13%;
+    left: 10%;
+    right: 10%;
+}
+
+.mx-190{
+    max-width: 190px;
+}
+
+.common-crd{
+    border-radius: 12px;
+background: #19161C;
+padding: 31px;
+
+}
+
+.mx-260{
+    max-width: 260px;
+}
+
+.elips-2::before{
+    content: '';
+    display: flex;
+    width: 259px;
+height: 59px;
+flex-shrink: 0;
+border-radius: 259px;
+background: #A962FF;
+filter: blur(40px);
+position: absolute;
+bottom: -10%;
+opacity: 0;
+transition: .4s;
+
+}
+.common-crd:hover .elips-2::before{
+    opacity: 1;
+}
+
+/* solana-changelog */
+
+.bg-clr{
+    background: linear-gradient(180deg, #19161C 0%, #000 100%);
+}
+
+h2{
+    margin-bottom: unset !important;
+    line-height: unset !important;
+}
+
+.common-btn{
+    border-radius: 24px;
+border: 1px solid #FFF;
+background: transparent;
+padding: 12px 21px;
+}
+
+.border-botm::before{
+  content: '';
+  width: 522.756px;
+height: 1px;
+flex-shrink: 0;
+background: rgba(255, 255, 255, 0.50);
+position: absolute;
+bottom: -20%;
+}
+
+.mx-390{
+    max-width: 390px;
+}
+.mx-500{
+    max-width: 500px;
+}
+
+.latest-episode-btn{
+    padding: 2px 20px;
+    border-radius: 24px;
+border: 1px solid #FFF;
+background: #000;
+}
+
+.common-crds{
+    border-radius: 14px;
+background: #19161C;
+box-shadow: 0px 58px 80px 0px rgba(0, 0, 0, 0.16);
+padding: 45px 54px;
+}
+
+.email{
+    display: inline-flex;
+padding: 23px 15px;
+align-items: center;
+gap: 216px;
+border-radius: 800px;
+background: #0A0A0A;
+border: none;
+width: 100%;
+}
+.pl-10{
+    padding-left: 10px;
+}
+
+.sign-btn{
+    border-radius: 800px;
+border: 1px solid #000;
+background: #14F195;
+padding: 13px 21px;
+position: absolute;
+top: 69%;
+right: 13%;
+}
+
+.sec-common-btn{
+    border-radius: 24px;
+border: 1px solid #FFF;
+background: transparent;
+padding: 12px 38px;
+}
+
+/* footer-section */
+.border-r > svg{
+    transition: .3s;
+}
+
+.border-r:hover >svg {
+    border-radius: 100px;
+}
+
+.line-h{
+    line-height: 27.3px;
+}
+
+
+/* @media-quary */
+@media (max-width:992px) {
+    label[id="menuicon"] {
+        width: 30px;
+        height: 24px;
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        right: 2%;
+        top: 4%;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 5;
+        align-items: center;
+
+    }
+
+    label[id="menuicon"]>span {
+        width: 100%;
+        height: 5px;
+        background: #9E3040;
+    }
+
+    .nav-box {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        position: fixed;
+        opacity: 1;
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        background: white;
+        z-index: 3;
+        box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.10);
+        transition: all 500ms linear;
+
+    }
+
+    .fix-lft {
+        left: 0;
+    }
+}
+
+
+

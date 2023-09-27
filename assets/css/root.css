@@ -188,3 +188,7 @@
 .bg-gradient-purple{
     background: var(--gradient-purple);
 }
+
+.text-yellow{
+    color: var(--yellow);
+}
