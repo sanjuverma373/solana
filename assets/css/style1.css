@@ -5,7 +5,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none !important;
-    border: 1px solid red;
+    
 }
 
 .my-container{
@@ -99,7 +99,7 @@ padding: 10px 21px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 18px;
-    padding: 85px;
+    padding: 16px;
 }
 p {
      margin-bottom: unset !important; 
@@ -205,7 +205,7 @@ background: #000;
     border-radius: 14px;
 background: #19161C;
 box-shadow: 0px 58px 80px 0px rgba(0, 0, 0, 0.16);
-padding: 45px 54px;
+padding: 6px 9px;
 }
 
 .email{
@@ -228,8 +228,8 @@ border: 1px solid #000;
 background: #14F195;
 padding: 13px 21px;
 position: absolute;
-top: 69%;
-right: 13%;
+top: 13%;
+right: 2%;
 }
 
 .sec-common-btn{
@@ -252,8 +252,21 @@ padding: 12px 38px;
     line-height: 27.3px;
 }
 
+ul {
+     padding-left: unset !important;
+     padding-bottom: unset !important;
+}
+
 
 /* @media-quary */
+@media (min-width:768px) {
+    .bg-devloper-img{
+        padding: 85px;
+    }
+    .common-crds{
+        padding: 45px 54px;
+    }
+}
 @media (max-width:992px) {
     label[id="menuicon"] {
         width: 30px;
@@ -262,7 +275,7 @@ padding: 12px 38px;
         display: flex;
         position: absolute;
         right: 2%;
-        top: 4%;
+        top: 7%;
         justify-content: space-between;
         flex-direction: column;
         z-index: 5;
