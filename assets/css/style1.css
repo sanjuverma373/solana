@@ -5,6 +5,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none !important;
+    border: 1px solid red;
 }
 
 .my-container{
@@ -93,6 +94,8 @@ padding: 10px 21px;
     z-index: -1;
 }
 
+/* get-started */
+
 .bg-devloper-img{
     background-image: url(../images/bg-devloper-img.png);
     background-size: cover;
@@ -112,9 +115,7 @@ padding: 1px 11px;
 border: none;
 }
 
-/* .devloper-img{
-    padding: 31px;
-} */
+
 
 .text-position {
     position: absolute;
@@ -127,17 +128,17 @@ border: none;
     max-width: 190px;
 }
 
+/* dig-deeper */
+
 .common-crd{
     border-radius: 12px;
 background: #19161C;
 padding: 31px;
 
 }
-
 .mx-260{
     max-width: 260px;
 }
-
 .elips-2::before{
     content: '';
     display: flex;
@@ -157,7 +158,7 @@ transition: .4s;
     opacity: 1;
 }
 
-/* solana-changelog */
+/* Go to the source. */
 
 .bg-clr{
     background: linear-gradient(180deg, #19161C 0%, #000 100%);
@@ -192,12 +193,16 @@ bottom: -20%;
     max-width: 500px;
 }
 
+/* Solana Changelog */
+
 .latest-episode-btn{
     padding: 2px 20px;
     border-radius: 24px;
 border: 1px solid #FFF;
 background: #000;
 }
+
+/* Solana Developer Update  */
 
 .common-crds{
     border-radius: 14px;
@@ -285,17 +290,13 @@ padding: 12px 38px;
         width: 100%;
         max-width: 400px;
         height: 100%;
-        background: white;
+        background: var(--S-button, linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%));        
         z-index: 3;
         box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.10);
         transition: all 500ms linear;
-
     }
 
     .fix-lft {
         left: 0;
     }
 }
-
-
-
