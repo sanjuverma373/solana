@@ -134,3 +134,28 @@
 .pl-5{
     padding-left: 5px;
 }
+/* growth section */
+.growth-btns{
+    border-radius: 15px;
+    border: 1px solid #111;
+    background: #111;
+    padding: 10px 14px;
+    transition: .4s;
+}
+.growth-btns:hover{
+    border: 1px solid var(--light-purple);
+}
+.growth-card{
+    max-width: 500px;
+    padding-left: 48px;
+    padding-top: 90px;
+    padding-right: 65px;
+    background-color: #1A1A1A;
+}
+.growth-logo-card{
+    border-radius: 16px;
+    background: rgba(38, 31, 38, 0.30);
+}
+.mxw-439{
+    max-width: 439px;
+}
