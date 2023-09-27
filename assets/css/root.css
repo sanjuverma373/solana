@@ -24,6 +24,10 @@
     --fs-xl-2 :46px;
     --fs-xl-3: 68px;
     --fs-xl-4: 40px; 
+    --fs-xl-4: 35px; 
+    --fs-xl-5: 94px;  
+    --fs-xl-6: 40px;
+    --fs-xl-4: 70px; 
     --fs-xl-5: 50px;  
     --fs-xl-6: 40px;
     --fs-xl-7: 106px;
@@ -193,6 +197,12 @@
     color: var(--yellow);
 }
 
+@media (min-width: 768px) {
+    :root{
+    --fs-xl-6: 101px;
+    --fs-xl-4: 70px;
+    }
+}
 @media (min-width: 576px) {
     :root{
         --fs-xl-5: 94px;
