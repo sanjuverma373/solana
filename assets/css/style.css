@@ -159,3 +159,31 @@
 .mxw-439{
     max-width: 439px;
 }
+/*  thriving community section  */
+.community-bg-img{
+    background-image: url("../images/thriving-community-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-box {
+    border-radius: 8px;
+    max-width: 300px;
+    height: 200px;
+    background-color: #19161C;
+}
+  .slick-slide {
+    margin: 0 10px; 
+  }  
+  .slick-list {
+    margin: 0 -10px; 
+  }
+.slider {
+    overflow: hidden; 
+  } 
+  .mxw-195{
+    max-width: 195px;
+  }
+  .mxw-736{
+    max-width: 736px;
+  }
+  
