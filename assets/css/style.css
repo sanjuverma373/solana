@@ -1,0 +1,161 @@
+@import url("./root.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+.my-container{
+    max-width: 1084px !important;
+}
+/* header */
+.bg-herosec-img{
+    background-image: url("../images/hero-section-image1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mxw-589{
+    max-width: 589px;
+}
+.primary-btn{
+    padding: 16px 33px;
+    border-radius: 36px;    
+}
+.b-1-black{
+    border: 1px solid var(--black);
+}
+.b-1-white{
+    border: 1px solid var(--white);
+}
+/* community section */
+.mxw-300{
+    max-width: 300px;
+}
+.f-active-accounts{
+    background: linear-gradient(262deg, #19FB9B -8.01%, #8C01FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.f-minted{
+    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* adoption section */
+.bg-neon-img{
+    background-image: url("../images/mass-adoption-bg-img.png");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+.dot::before{
+    content: '';
+    display: flex;
+    width: 4.286px;
+    height: 4.471px;
+    flex-shrink: 0;
+    background-color: var(--blue);
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    bottom: 40%;
+}
+.adoption-card{
+    max-width: 340px;
+    border-radius: 24px;
+    background: rgba(0, 0, 0, 0.28);
+    padding: 12px;
+}
+.mxw-263{
+    width: 263px;
+}
+.adoption-card-blueline::before{
+    content: '';
+    display: flex;
+    width: 2px;
+    height: 33px;
+    flex-shrink: 0;
+    background-color: var(--blue);
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.adoption-card-purpleline::before{
+    content: '';
+    display: flex;
+    width: 2px;
+    height: 33px;
+    flex-shrink: 0;
+    background-color: var(--dark-purple);
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.adoption-card-yellowline::before{
+    content: '';
+    display: flex;
+    width: 2px;
+    height: 33px;
+    flex-shrink: 0;
+    background-color: var(--yellow);
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.adoption-card-greenline::before{
+    content: '';
+    display: flex;
+    width: 2px;
+    height: 33px;
+    flex-shrink: 0;
+    background-color: var(--greanish);
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.card-dot::before{
+    content: '';
+    display: flex;
+    width: 4.286px;
+    height: 4.471px;
+    flex-shrink: 0;
+    background-color: var(--blue);
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 25%;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pl-5{
+    padding-left: 5px;
+}
+/* growth section */
+.growth-btns{
+    border-radius: 15px;
+    border: 1px solid #111;
+    background: #111;
+    padding: 10px 14px;
+    transition: .4s;
+}
+.growth-btns:hover{
+    border: 1px solid var(--light-purple);
+}
+.growth-card{
+    max-width: 500px;
+    padding-left: 48px;
+    padding-top: 90px;
+    padding-right: 65px;
+    background-color: #1A1A1A;
+}
+.growth-logo-card{
+    border-radius: 16px;
+    background: rgba(38, 31, 38, 0.30);
+}
+.mxw-439{
+    max-width: 439px;
+}
