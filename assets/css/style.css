@@ -26,6 +26,13 @@
 .bg-blue{
     background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
 }
+.nav-upper{
+    transition: .4s;
+}
+.nav-upper:hover{
+    color: var(--white) !important;
+    cursor:default;
+}
 /* navbar */
 .bg-nav{
      background: rgba(0, 0, 0, 0.60);
@@ -91,25 +98,20 @@
     transition: .4s;
 }
 .drop-down:hover .down-arrow {
-    transform: rotate(180deg);
+    transform: rotate(180deg);  
 }
 .dropdown-options{
     display: none;
     color: #000;
     padding: 5px;
     text-decoration: none;
-    padding: 8px 20px;
-    
+    padding: 8px 20px;    
 }
-
 .dropdown-options:hover {
-
     color: white;
     background-color: #ddd;
     border-radius: 5px;
 }
-
-
 /* header */
 .bg-herosec-img{
     background-image: url("../images/hero-section-image1.png");
@@ -122,7 +124,14 @@
 }
 .primary-btn{
     padding: 10px 18px;
-    border-radius: 36px;    
+    border-radius: 36px; 
+    transition: .4s;   
+}
+.primary-btn:hover{
+    background: var(--white) !important;
+    border: 1px solid var(--white);
+    color: var(--black) !important;
+    transform: translateY(-10px);
 }
 .b-1-black{
     border: 1px solid var(--black);
@@ -133,28 +142,39 @@
 .l-p-0_68{
     letter-spacing: 0.68px;
 }
-
 /* devloper-section */
 .mx-390{
     max-width: 390px;
 }
-
 .mr-8{
     margin-right: 8px;
 }
 .build-btn{
     border-radius: 24px;
-border: 1px solid #000;
-background: #14F195;
-padding: 10px 21px;
+    border: 1px solid #000;
+    background: #14F195;
+    padding: 10px 21px;
+    transition: .4s;
+}
+.build-btn:hover{
+    background: var(--white) !important;
+    border: 1px solid var(--white);
+    color: var(--black) !important;
+    transform: translateY(-10px);
 }
 .stack-btn{
     border-radius: 24px;
-border: 1px solid #FFF;
-background: #000;
-padding: 10px 21px;
+    border: 1px solid #FFF;
+    background: #000;
+    padding: 10px 21px;
+    transition: .4s;
 }
-
+.stack-btn:hover{
+    background: var(--white) !important;
+    border: 1px solid var(--white);
+    color: var(--black) !important;
+    transform: translateY(-10px);
+}
 .elips-1{
     position: absolute;
     top: 0;
@@ -163,7 +183,6 @@ padding: 10px 21px;
 .z-index-1{
     z-index: -1;
 }
-
 /* get-started */
 
 .bg-devloper-img{
@@ -180,9 +199,10 @@ p {
 
 .pramiry-btn{
     border-radius: 16px;
-background: #9945FF;
-padding: 1px 11px;
-border: none;
+    background: #9945FF;
+    padding: 1px 11px;
+    border: none;  
+    transition: .4s; 
 }
 .text-position {
     position: absolute;
@@ -193,7 +213,6 @@ border: none;
 .mx-190{
     max-width: 190px;
 }
-
 /* community section */
 .mxw-300{
     max-width: 300px;
@@ -216,13 +235,10 @@ border: none;
     border-radius: 12px;
     background: #19161C;
     padding: 31px;
-
 }
-
 .mx-260 {
     max-width: 260px;
 }
-
 .elips-2::before {
     content: '';
     display: flex;
@@ -237,11 +253,9 @@ border: none;
     opacity: 0;
     transition: .4s;
 }
-
 .common-crd:hover .elips-2::before {
     opacity: 1;
 }
-
 /* adoption section */
 .bg-neon-img{
     background-image: url("../images/mass-adoption-bg-img.png");
@@ -342,6 +356,7 @@ border: none;
 }
 .growth-btns:hover{
     border: 1px solid var(--light-purple);
+
 }
 .growth-card{
     max-width: 500px;
@@ -400,8 +415,14 @@ h2 {
     border: 1px solid #FFF;
     background: transparent;
     padding: 12px 21px;
+    transition: .4s;
 }
-
+.common-btn:hover{
+    background: var(--white) !important;
+    border: 1px solid var(--white);
+    color: var(--black) !important;
+    transform: translateY(-10px);
+}
 .border-botm::before {
     content: '';
     width: 522.756px;
@@ -411,15 +432,12 @@ h2 {
     position: absolute;
     bottom: -20%;
 }
-
 .mx-390 {
     max-width: 390px;
 }
-
 .mx-500 {
     max-width: 500px;
 }
-
 /* Solana Changelog */
 
 .latest-episode-btn {
@@ -427,8 +445,14 @@ h2 {
     border-radius: 24px;
     border: 1px solid #FFF;
     background: #000;
+    transition: .4s;
 }
-
+.latest-episode-btn:hover{
+    background: var(--white) !important;
+    border: 1px solid var(--white);
+    color: var(--black) !important;
+    transform: translateY(-10px);
+}
 /* Solana Developer Update  */
 
 .common-crds {
@@ -437,7 +461,6 @@ h2 {
     box-shadow: 0px 58px 80px 0px rgba(0, 0, 0, 0.16);
     padding: 20px 9px;
 }
-
 .email {
     display: inline-flex;
     padding: 23px 15px;
@@ -448,15 +471,12 @@ h2 {
     border: none;
     width: 100%;
 }
-
 .pl-25 {
     padding-left: 25px;
 }
-
 input {
     outline: unset !important;
 }
-
 .sign-btn {
     border-radius: 800px;
     border: 1px solid #000;
@@ -466,20 +486,23 @@ input {
     top: 13%;
     right: 2%;
 }
-
 .sec-common-btn {
     border-radius: 24px;
     border: 1px solid #FFF;
     background: transparent;
     padding: 10px 16px;
+    transition: .4s;
 }
-
+.sec-common-btn:hover{
+    background: var(--white) !important;
+    border: 1px solid var(--white);
+    color: var(--black) !important;
+    transform: translateY(-10px);
+}
   /* footer */
-
   .border-r > svg{
     transition: .3s;
 }
-
 .border-r:hover >svg {
     border-radius: 100px;
 }
@@ -500,11 +523,9 @@ ul {
     .bg-devloper-img {
         padding: 85px;
     }
-
     .common-crds {
         padding: 45px 51px;
     }
-
     .sec-common-btn {
         border-radius: 24px;
         border: 1px solid #FFF;
