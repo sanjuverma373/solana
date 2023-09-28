@@ -28,20 +28,16 @@
 .nav-bar-h:hover .down-arrow > svg path{
     fill: white;   
 }
-
-
 .cross-1 {
     rotate: 45deg;
     transition: .4s;
 }
-
 .cross-2 {
     position: relative;
     transition: .4s;
     top: -80%;
     rotate: -45deg;
 }
-
 .cross-4 {
     transition: .4s;
 }

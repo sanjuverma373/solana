@@ -14,12 +14,17 @@
 .bg-blue{
     background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
 }
+/* navbar */
+.bg-nav{
+     background: rgba(0, 0, 0, 0.60);
+}
 
 /* header */
 .bg-herosec-img{
     background-image: url("../images/hero-section-image1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0 -70px;
 }
 .mxw-589{
     max-width: 589px;
@@ -34,6 +39,10 @@
 .b-1-white{
     border: 1px solid var(--white);
 }
+.l-p-0_68{
+    letter-spacing: 0.68px;
+}
+
 /* community section */
 .mxw-300{
     max-width: 300px;
@@ -215,6 +224,23 @@
         padding-top: 90px;
         padding-right: 65px;
     }
-    
+    .min-md-height-856{
+        min-height: 865px;
+    }
+    .lh-md-130{
+        line-height: 130px;
+    }
+    .lh-md-45{
+        line-height: 45px;
+    }
+    .lh-md-75{
+        line-height: 75px;
+    }
+    .lh-md-27{
+        line-height: 27px
+    }
+    .lh-md-15{
+        line-height: 15px;
+    }
 }
   
