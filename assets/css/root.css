@@ -5,31 +5,31 @@
     --fs-sm-2: 14px;
     --fs-sm-3: 12px;
     --fs-sm-4: 15px;
-    --fs-sm-5: 17px;
-    --fs-sm-6: 18px;
+    --fs-sm-5: 10px;
+    --fs-sm-6: 15px;
     --fs-md: 15px;
     --fs-md-1: 15px;
-    --fs-md-2: 21px;
+    --fs-md-2: 15px;
     --fs-md-3: 25px;
     --fs-md-4: 26px;
-    --fs-md-5: 28px;
+    --fs-md-5: 22px;
     --fs-lg: 20px;
     --fs-lg-1: 35px;
     --fs-lg-2: 30px;
     --fs-lg-3: 30px;
-    --fs-lg-4: 30px; 
-    --fs-lg-5: 30px;
-    --fs-xl: 35px;     
+    --fs-lg-4: 23px; 
+    --fs-lg-5: 25px;
+    --fs-xl: 25px;     
     --fs-xl-1: 42px; 
     --fs-xl-2 :46px;
     --fs-xl-3: 68px;
     --fs-xl-4: 40px; 
-    --fs-xl-4: 35px; 
+    --fs-xl-4: 25px; 
     --fs-xl-5: 94px;  
     --fs-xl-6: 40px;
-    --fs-xl-4: 70px; 
+    --fs-xl-4: 40px; 
     --fs-xl-5: 50px;  
-    --fs-xl-6: 40px;
+    --fs-xl-6: 35px;
     --fs-xl-7: 106px;
     --fs-xl-8: 110px;
 
@@ -57,67 +57,51 @@
 .fs-sm {
     font-size: var(--fs-sm);
 }
-
 .fs-s-sm {
     font-size: var(--fs-sm-1);
 }
-
 .fs-m-sm {
     font-size: var(--fs-sm-2);
 }
-
 .fs-x-sm {
     font-size: var(--fs-sm-3);
 }
 .fs-xxl-sm {
     font-size: var(--fs-sm-4);
 }
-
-
 .fs-xxl-sm-1 {
     font-size: var(--fs-sm-5);
 }
-
 .fs-xxl-sm-2 {
     font-size: var(--fs-sm-6);
 }
-
 .fs-md {
     font-size: var(--fs-md);
 }
-
 .fs-s-md {
     font-size: var(--fs-md-1);
 }
-
 .fs-m-md {
     font-size: var(--fs-md-2);
 }
-
 .fs-x-md {
     font-size: var(--fs-md-3);
 }
-
 .fs-xxl-md {
     font-size: var(--fs-md-4);
 }
-
 .fs-xxl-md-1 {
     font-size: var(--fs-md-5);
 }
-
 .fs-lg {
     font-size: var(--fs-lg);
 }
-
 .fs-s-lg {
     font-size: var(--fs-lg-1);
 }
-
 .fs-m-lg {
     font-size: var(--fs-lg-2);
 }
-
 .fs-x-lg {
     font-size: var(--fs-lg-3);
 }
@@ -197,12 +181,7 @@
     color: var(--yellow);
 }
 
-@media (min-width: 768px) {
-    :root{
-    --fs-xl-6: 101px;
-    --fs-xl-4: 70px;
-    }
-}
+
 @media (min-width: 576px) {
     :root{
         --fs-xl-5: 94px;
@@ -215,9 +194,14 @@
         --fs-md: 19px;
         --fs-sm-1: 12px;
         --fs-lg-2: 36px;
-        --fs-sm-3: 15px;
-        
+        --fs-sm-3: 15px;        
         --fs-xl: 40px;
+        --fs-sm-5: 17px;
+        --fs-xl-4: 70px;
+        --fs-md-2: 21px;
+        --fs-xl-6: 101px;
+        --fs-md-5: 28px;
+        --fs-sm-6: 18px;
        
     }
     

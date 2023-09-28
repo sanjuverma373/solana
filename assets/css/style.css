@@ -10,10 +10,7 @@
     max-width: 1084px !important;
 }
 
-/* nav-section-upper */
-.bg-blue{
-    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
-}
+
 
 /* header */
 .bg-herosec-img{
