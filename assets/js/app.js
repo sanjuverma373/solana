@@ -10,9 +10,6 @@ let build = document.querySelector(".build");
 let network = document.querySelector(".network");
 let community = document.querySelector(".community");
 
-
-
-
 menuicon.addEventListener("click", function () {
     if(a.classList !== document.querySelector("fix-lft")){
     a.classList.toggle("fix-lft");
