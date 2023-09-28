@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url("./root.css");
 *{
     padding: 0;
@@ -6,6 +7,22 @@
     list-style-type: none;
     text-decoration: none !important;
     
+}
+@font-face {
+    font-family: "helveticareguler";
+    src: url(/assets/font-family/Helvetica-Font/Helvetica.ttf);
+}
+.ff-roboto{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.ff-helvetica{
+    font-family: "helveticareguler";
+}
+
+/* nav-section-upper */
+.bg-blue{
+    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
 }
 
 .my-container{
@@ -56,6 +73,49 @@
 .flow-hidden {
     overflow: hidden;
 }
+
+
+.drop-down {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    z-index: 2;
+    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.drop-down:hover .dropdown-options {
+    display: grid;
+}
+ .down-arrow{
+    transition: .4s;
+}
+.drop-down:hover .down-arrow {
+    transform: rotate(180deg);
+}
+
+
+.dropdown-options{
+    display: none;
+    color: #000;
+    padding: 5px;
+    text-decoration: none;
+    padding: 8px 20px;
+    
+}
+
+.dropdown-options:hover {
+
+    color: white;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
 
 /* devloper-section */
 .mx-390{
@@ -145,7 +205,6 @@ position: absolute;
 bottom: -10%;
 opacity: 0;
 transition: .4s;
-
 }
 .common-crd:hover .elips-2::before{
     opacity: 1;
@@ -214,8 +273,12 @@ background: #0A0A0A;
 border: none;
 width: 100%;
 }
-.pl-10{
-    padding-left: 10px;
+.pl-25{
+    padding-left: 25px;
+}
+
+input{
+    outline: unset !important;
 }
 
 .sign-btn{
@@ -244,15 +307,10 @@ padding: 12px 38px;
     border-radius: 100px;
 }
 
-.line-h{
-    line-height: 27.3px;
-}
-
 ul {
      padding-left: unset !important;
      padding-bottom: unset !important;
 }
-
 
 /* @media-quary */
 @media (min-width:768px) {
@@ -271,7 +329,7 @@ ul {
         display: flex;
         position: absolute;
         right: 2%;
-        top: 7%;
+        top: 13%;
         justify-content: space-between;
         flex-direction: column;
         z-index: 5;
