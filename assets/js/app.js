@@ -11,29 +11,30 @@ let network = document.querySelector(".network");
 let community = document.querySelector(".community");
 
 menuicon.addEventListener("click", function () {
-    if(a.classList !== document.querySelector("fix-lft")){
-    a.classList.toggle("fix-lft");
-    flow.classList.toggle("flow-hidden");
-    cross4.classList.toggle("cross-1");
-    cross5.classList.toggle("cross-2");
-    cross6.classList.toggle("cross-3")}
+    if (a.classList !== document.querySelector("fix-lft")) {
+        a.classList.toggle("fix-lft");
+        flow.classList.toggle("flow-hidden");
+        cross4.classList.toggle("cross-1");
+        cross5.classList.toggle("cross-2");
+        cross6.classList.toggle("cross-3")
+    }
 });
 
-learn.addEventListener("click",function(){
+learn.addEventListener("click", function () {
     a.classList.toggle("fix-lft");
     flow.classList.remove("flow-hidden");
     cross4.classList.toggle("cross-1");
     cross5.classList.toggle("cross-2");
     cross6.classList.toggle("cross-3");
 });
-build.addEventListener("click",function(){
+build.addEventListener("click", function () {
     a.classList.remove("fix-lft");
     flow.classList.remove("flow-hidden");
     cross4.classList.toggle("cross-1");
     cross5.classList.toggle("cross-2");
     cross6.classList.toggle("cross-3");
 });
-network.addEventListener("click",function(){
+network.addEventListener("click", function () {
     a.classList.remove("fix-lft");
     flow.classList.remove("flow-hidden");
     cross4.classList.toggle("cross-1");
@@ -41,7 +42,7 @@ network.addEventListener("click",function(){
     cross6.classList.toggle("cross-3");
 });
 
-community.addEventListener("click",function(){
+community.addEventListener("click", function () {
     a.classList.remove("fix-lft");
     flow.classList.remove("flow-hidden");
     cross4.classList.toggle("cross-1");
