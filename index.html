@@ -49,7 +49,7 @@
   <header class="bg-herosec-img d-flex flex-column min-md-height-856">
     <div class="bg-blue py-1">
       <div class="container my-container">
-        <p class="fs-xxl-sm-1 fw-normal text-black text-center mb-0 ff-roboto nav-upper">Breakpoint 2023 - New City. New
+        <p class="fs-xxl-sm-1 fw-normal text-black text-center text-uppercase mb-0 ff-roboto nav-upper">Breakpoint 2023 - New City. New
           Vibes - Get Early
           Access -></p>
       </div>
@@ -58,6 +58,8 @@
     <div class="loader_bg">
       <div class="loader"></div>
     </div>
+    <!-- back to top button -->
+    <a id="button"><img width="48" height="48" src="https://img.icons8.com/fluency/48/circled-up-2.png" alt="circled-up-2"/></a>
   
     <!-- nav-section -->
     <nav class="bg-nav py-lg-4 py-2 ">
@@ -478,7 +480,7 @@
             </div>
             <div class="col-4">
               <ul class="line-h">
-                <li class="fs-x-sm fw-normal text-dark-grey lh-md-27 mb-2"><a class="fs-xxl-sm fw-normal text-white ff-helvetica"
+                <li class="mb-2"><a class="fs-x-sm fw-normal text-dark-grey lh-md-27 ff-helvetica d-flex align-items-center"
                     href=""><svg width="19" height="20" viewBox="0 0 19 20" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_1479_1606)">
@@ -487,7 +489,8 @@
                           fill="#848895" />
                       </g>
                     </svg>
-                  </a>EN</li>
+                    <p class="pl-5">EN</p>
+                  </a></li>
               </ul>
             </div>
           </div>
@@ -556,6 +559,23 @@
         disable: 'mobile',
       }
     );
+  </script>
+  <script>
+    var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
   </script>
 </body>
 

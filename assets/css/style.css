@@ -168,6 +168,34 @@
 .l-p-0_68 {
     letter-spacing: 0.68px;
 }
+/* back to top button */
+#button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    animation: float 2.4s linear infinite;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
 
 /* preloader */
 
@@ -753,6 +781,17 @@ ul {
     100%{
         transform: scale(1);
         opacity: 0;
+    }
+}
+@keyframes float {
+    0% {
+        transform: translatey(0) scale(.998);
+    }
+    50% {
+        transform: translatey(-7px) scale(1.1023);
+    }
+    100% {
+        transform: translatey(0) scale(.998);
     }
 }
   
